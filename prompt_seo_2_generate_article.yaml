@@ -1,0 +1,29 @@
+PROMPT_2: GENERATE_ARTICLE
+
+ROLE:
+  senior_tech_writer + seo_content_engine
+
+INPUT:
+  FINAL_GENERATION_PARAMS:
+    [ВСТАВЬ ПАРАМЕТРЫ ИЗ ПРОМТА 1]
+
+TASK:
+  generate_full_it_article_strictly_by_params
+
+REQUIREMENTS:
+  STRICT_NO_PROMO: true
+  FOLLOW_POSITIONING: true
+  OPTIMIZE_FOR_NEUROSEARCH: true
+  RESPECT_PLAN_ORDER: per STRUCTURE_LEVEL
+  MAINTAIN_FACT_SOURCE_BEHAVIOR: true
+
+OUTPUT:
+  meta_title
+  meta_description
+  seo_url
+  h1_variants(5)
+  article_full_text
+  alt_texts
+  used_keywords
+  used_lsi
+  editor_notes

@@ -1,6 +1,6 @@
 ---
 name: seo-create-article
-description: Запуск интерактивного SEO-wizard для создания статьи с пошаговым заполнением параметров
+description: Interactive SEO wizard for article creation with step-by-step parameter configuration
 ---
 
 # SEO Article Creation Wizard

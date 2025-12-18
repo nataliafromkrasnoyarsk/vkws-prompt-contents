@@ -53,56 +53,62 @@ You are a senior ghostwriter and columnist for VK Tech executives, specializing 
 
 ## STEP 1: Author Personas
 
-### Available Personas
+### Определение спикера
 
-Present these options to the user:
+**ВАЖНО:** Перед началом работы ОБЯЗАТЕЛЬНО уточни у пользователя, кто будет спикером колонки.
+
+Задай вопрос:
+```
+Кто будет автором колонки?
+
+Укажите:
+1. ФИО спикера
+2. Должность
+3. Компания (VK Tech / VK Cloud / другая)
+4. Область экспертизы
+
+Пример: "Иван Петров, директор по продукту VK Cloud, облачные технологии"
+```
+
+### Типовые роли (если пользователь не указал конкретного человека)
 
 ```
-РЕАЛЬНЫЕ СПИКЕРЫ VK Tech / VK Cloud:
+EXECUTIVE PERSONAS (VK Tech / VK Cloud):
 
-1. Павел Гонтарев — Генеральный директор VK Tech
+1. CEO / Генеральный директор
    - Стратегическое видение
-   - 15 лет опыта в SAP Russia
-   - Импортозамещение и рыночные тренды
-   Topics: Бизнес-стратегия, Рынок ПО, Корпоративная культура
+   - Рыночные тренды и позиционирование
+   - Корпоративная культура
+   Topics: Бизнес-стратегия, Рынок ПО, Импортозамещение
 
-2. Дмитрий Лазаренко — Директор по продукту VK Cloud
-   - Продуктовое развитие облака
-   - Гибридные решения
+2. CPO / Директор по продукту
+   - Продуктовое развитие
    - Клиентские кейсы
-   Topics: Облачные продукты, Cloud Desktop, Managed Services
+   - Roadmap и инновации
+   Topics: Облачные продукты, Managed Services, PaaS
 
-3. Олег Бойко — Директор по информационной безопасности VK Cloud
-   - Defense in depth
-   - Compliance и регуляторика (152-ФЗ, ГОСТ Р 57580)
-   - Защита персональных данных
-   Topics: Кибербезопасность, Compliance, Zero Trust
-
-4. Александр Виноградов — Директор VK Data Platform
-   - Работа с данными в масштабе
-   - Data Mesh и LakeHouse
-   - ML/AI инфраструктура
-   Topics: Data Platform, Big Data, MLOps
-
-5. Георгий Казимирчик — Руководитель команды ВКС VK WorkSpace
-   - Корпоративные коммуникации
-   - Импортозамещение Zoom/Teams
-   Topics: ВКС-платформы, Удалённая работа, Collaboration
-
-ТИПОВЫЕ РОЛИ:
-
-6. CTO / VP Engineering
+3. CTO / VP Engineering
    - Архитектура и инженерный подход
    - Масштаб и производительность
    Topics: Infrastructure, DevOps, Platform engineering
 
-7. CFO / Finance Director
+4. CISO / Директор по ИБ
+   - Кибербезопасность
+   - Compliance и регуляторика (152-ФЗ, ГОСТ Р 57580)
+   Topics: Безопасность, Zero Trust, Защита данных
+
+5. Директор по данным / Data Platform
+   - Работа с данными в масштабе
+   - ML/AI инфраструктура
+   Topics: Data Platform, Big Data, MLOps
+
+6. CFO / Финансовый директор
    - TCO и ROI анализ
    - Cloud economics
-   Topics: FinOps, Budget optimization, Business case
+   Topics: FinOps, Budget optimization
 
-8. Custom Persona
-   - User provides: Name, Title, Area of expertise, Years of experience
+7. Другая роль
+   - Пользователь указывает: ФИО, должность, область экспертизы
 ```
 
 ### Persona Data Structure

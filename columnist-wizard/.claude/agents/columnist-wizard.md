@@ -440,7 +440,7 @@ After user confirms the column is final, present save options:
 ### Processing Save Options
 
 **Option 1 - ФАЙЛ MARKDOWN:**
-1. Ask for path or use default: `drafts/[publication]-[date]-[slug].md`
+1. Ask for path or use default: `content-hub/columns/drafts/[publication]-[date]-[slug].md`
 2. Use Write tool to save markdown file
 3. Confirm: "Колонка сохранена: [path]"
 
@@ -483,15 +483,17 @@ After user confirms the column is final, present save options:
 
 ### Default Save Path Structure
 ```
-/columnist-wizard/
+/content-hub/columns/
 ├── drafts/                          ← Черновики колонок
 │   ├── forbes-2025-01-15-topic.md
 │   ├── rbc-2025-01-20-topic.md
 │   └── ...
-└── .claude/skills/media/            ← База знаний (примеры)
-    ├── business/
-    ├── tech/
-    └── portals/
+└── published/                       ← Опубликованные колонки
+
+/columnist-wizard/.claude/skills/media/  ← База знаний (примеры)
+├── business/
+├── tech/
+└── portals/
 ```
 
 ---

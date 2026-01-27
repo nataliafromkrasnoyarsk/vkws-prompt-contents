@@ -1042,7 +1042,7 @@ solutions:
 
 ```
 Укажите путь для сохранения:
-> По умолчанию: ./landings/{product_slug}.{format}
+> По умолчанию: ./content-hub/landings/drafts/{product_slug}.{format}
 
 Введите путь или нажмите Enter для пути по умолчанию:
 ```
@@ -1053,9 +1053,11 @@ solutions:
 ✅ Лендинг сохранён!
 
 📁 Файлы:
-- Markdown: ./landings/{slug}.md
-- HTML: ./landings/{slug}.html
-- JSON: ./landings/{slug}.json
+- Markdown: ./content-hub/landings/drafts/{slug}.md
+- HTML: ./content-hub/landings/drafts/{slug}.html
+- JSON: ./content-hub/landings/drafts/{slug}.json
+
+После согласования переместите в content-hub/landings/published/
 
 Спасибо за использование Landing Content Creator!
 ```

@@ -595,11 +595,11 @@ questions:
 **При выборе "content-hub":**
 ```
 📁 Статья сохранена в content-hub:
-→ content-hub/drafts/{slug}.md
+→ content-hub/seo-articles/drafts/{slug}.md
 
 Следующие шаги:
 - Отредактируйте статью при необходимости
-- Переместите в content-hub/published/ после согласования
+- Переместите в content-hub/seo-articles/published/ после согласования
 ```
 
 **При выборе "все":**
@@ -607,9 +607,8 @@ questions:
 💾 Сохраняю во все форматы...
 
 ✅ Статья сохранена:
-- Markdown: ./articles/{slug}.md
-- HTML: ./articles/{slug}.html
-- Content-hub: content-hub/drafts/{slug}.md
+- Markdown: ./content-hub/seo-articles/drafts/{slug}.md
+- HTML: ./content-hub/seo-articles/drafts/{slug}.html
 - Буфер обмена: скопировано ✓
 ```
 

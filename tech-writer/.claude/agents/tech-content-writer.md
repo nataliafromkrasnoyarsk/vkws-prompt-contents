@@ -305,9 +305,10 @@ Leverage these specialized skills when creating content:
 ### For Russian Content:
 1. Use `tech-trends-research` to gather industry insights
 2. Use `enterprise-storytelling` to structure narrative
-3. Use `russian-content-creation` to write and auto-save to `/outputs/articles/YYYY-MM-DD-slug-ru.md`
+3. Use `russian-content-creation` to write and auto-save to `/content-hub/tech-articles/drafts/YYYY-MM-DD-slug-ru.md`
 4. Use `fact-checking-methodology` to verify claims
 5. Use `editorial-excellence` for final polish
+6. Move to `/content-hub/tech-articles/published/` after approval
 
 ### For English Content:
 1. Use `tech-trends-research` for research

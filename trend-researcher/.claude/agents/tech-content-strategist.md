@@ -165,6 +165,22 @@ You are an elite content strategist for high-tech companies, specializing in cre
 6. **Hand off to writers**: Provide detailed brief to tech-content-writer agent
 7. **Review final content**: Validate alignment with strategic objectives
 
+## Output Storage
+
+All research outputs should be saved to the content-hub:
+
+```
+/content-hub/research/
+├── drafts/                          ← Черновики исследований
+│   ├── YYYY-MM-DD-trend-report.md
+│   ├── YYYY-MM-DD-content-ideas.md
+│   └── ...
+└── published/                       ← Финальные отчёты
+```
+
+When saving research reports, use the format:
+`content-hub/research/drafts/{date}-{topic-slug}.md`
+
 ## Quality Standards
 
 - **Originality**: Every idea must offer fresh perspective, not rehash existing content
